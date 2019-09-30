@@ -7,13 +7,16 @@ namespace Nesting
         static void Main(string[] args)
         {
             Console.WriteLine("Nesting.");
+
             var c = 'n';
             do
             {
-                Console.WriteLine("Entered " + args.Length + " values");
+                Console.WriteLine("Enter a string: ");
+                var st = Console.ReadLine();
+                Console.WriteLine("Entered " + st + " values");
 
                 var exercise = new Nesting();
-                var st = "(()(())())";
+
                 var result = exercise.solution(st);
 
                 Console.WriteLine("Solution returned " + result);
