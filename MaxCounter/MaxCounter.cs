@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MaxXounters
+namespace MaxCounters
 {
 
     public class MaxCounter
