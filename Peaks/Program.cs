@@ -11,13 +11,12 @@ namespace Peaks
             var c = 'n';
             do
             {
-                Console.WriteLine("Enter a string: ");
-                var st = Console.ReadLine();
-                Console.WriteLine("Entered " + st + " values");
 
                 var exercise = new Peaks();
-                var A = int[] = [1,2,3,4,3,4,1,2,3,4,6,2];
-                var result = exercise.solution(st);
+                //var A = new int[] { 1,2,3,4,3,4,1,2,3,4,6,2};
+                //var A = new int[] { 1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 };
+                var A = new int[] { 1, 2, 3, 2, 5,6,7,8,9,1};
+                var result = exercise.solution(A);
 
                 Console.WriteLine("Solution returned " + result);
 
